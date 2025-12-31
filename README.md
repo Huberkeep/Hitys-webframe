@@ -12,3 +12,7 @@ Including content:
   + .item
   + #item
   + keyframe
+# How to using
+You just del that note
++ htmlnote:<!--xxx-->
++ cssnote:/*xxx*/
