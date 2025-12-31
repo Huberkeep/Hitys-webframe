@@ -25,9 +25,9 @@ html header structure:
 + body tag
     + web main content
 # add JavaScript 
-+ script tag(<scrip t>)
+\+ \script tag(<script>)
   + js script content
-+ </s cript>
+\+ \</script>
 *warning🟥*:
 script content and tag cannot be writen inside body tag!
 # div
@@ -43,6 +43,6 @@ Writing method:
 .item selects a div (or any element) with the class = "item", whereas #item selects the element with the id = "item".
 
 # Using
-You just del those note
+==you just del those note==
 + html note:<!- -xxx-->
 + css note:/* xxx */
