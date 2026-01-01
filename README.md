@@ -46,20 +46,20 @@ Writing method:
 .item selects a div (or any element) with the class = "item", whereas #item selects the element with the id = "item".
 ## text-align and box-align
 Like its name suggests, it has three values: left, center, and right.
+1. text-align: The horizontal alignment mode for text content.
+2. box-align : The alignment mode for elements inside a box(or flex) container.
 # JS
 ## onlick active 
 str(The first kind):
-'''javascipt
+
 item.onclick(things)
-'''
 str(The second type:funtction):
-'''javascipt
 item.onclick=function(function-name){
-    Things
+    Things.things
 }
-'''
-1. text-align: The horizontal alignment mode for text content.
-2. box-align : The alignment mode for elements inside a box(or flex) container.
+## write("hello world")
+using document.write:
+-  document.write("heelo world")
 # Using
 == you just delete those note ==
 + html note:<!- -xxx-->
