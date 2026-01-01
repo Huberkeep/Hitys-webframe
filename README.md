@@ -8,10 +8,13 @@
   + html footer
   + html add js
   + html div
+  + button
 + learn-css
   + .item
   + #item
   + keyframe
++ JavaScript
+   + onclick active
 # html header
 html header structure:
 + DOCTYPE HTML tag
@@ -43,10 +46,21 @@ Writing method:
 .item selects a div (or any element) with the class = "item", whereas #item selects the element with the id = "item".
 ## text-align and box-align
 Like its name suggests, it has three values: left, center, and right.
-
+# JS
+## onlick active 
+str(The first kind):
+'''javascipt
+item.onclick(things)
+'''
+str(The second type:funtction):
+'''javascipt
+item.onclick=function(function-name){
+    Things
+}
+'''
 1. text-align: The horizontal alignment mode for text content.
 2. box-align : The alignment mode for elements inside a box(or flex) container.
 # Using
-==you just del those note==
+== you just delete those note ==
 + html note:<!- -xxx-->
 + css note:/* xxx */
