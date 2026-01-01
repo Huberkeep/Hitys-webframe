@@ -32,16 +32,20 @@ html header structure:
 script content and tag cannot be writen inside body tag!
 # div
 div has two value:**id and class**
-+ id:feedonly id
++ id:feedonly identity
 + class:collective class
 Writing method:
-+ div id="xxx"
-+ or
-+ div class="xxx"
-# CSS-.item
-
+     + div id="xxx"
+        + or
+     + div class="xxx"
+# CSS
+## .items and #items
 .item selects a div (or any element) with the class = "item", whereas #item selects the element with the id = "item".
+## text-align and box-align
+Like its name suggests, it has three values: left, center, and right.
 
+1. text-align: The horizontal alignment mode for text content.
+2. box-align : The alignment mode for elements inside a box(or flex) container.
 # Using
 ==you just del those note==
 + html note:<!- -xxx-->
