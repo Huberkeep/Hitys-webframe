@@ -54,12 +54,17 @@ str(The first kind):
 
 item.onclick(things)
 str(The second type:funtction):
+
+
+
+\n
+
 item.onclick=function(function-name){
     Things.things
 }
 ## write("hello world")
 using document.write:
--  document.write("heelo world")
+-  document.write("hello world")
 # Using
 == you just delete those note ==
 + html note:<!- -xxx-->
