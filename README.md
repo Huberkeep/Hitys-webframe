@@ -1,21 +1,22 @@
 # Hitys-webframe
-**This is a frame work😋**
-*😻Including content*:
-+ html
+**This is a frame work for Beginner developer😋**
+
+*😻This frame **Including content(some on README.md)***:
++ **html**
   + tags str
   + html header
-    + CSS's style label
+    + **CSS's style** label
   + html body
   + html footer
   + html add js
   + html div
     + id and class
   + button tags
-+ learn-css
++ **css**
   + .item
   + #item
   + keyframe
-+ JavaScript
++ **JavaScript**
    + onclick active
    + function
    + using function
