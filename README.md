@@ -1,6 +1,7 @@
 # Hitys-webframe
 **This is a frame work😋**
-*Including content*:
+*😻Including content*:
+- tags str
 + html
   + html header
     + CSS's style label
@@ -8,14 +9,18 @@
   + html footer
   + html add js
   + html div
-  + button
+    + id and class
+  + button tags
 + learn-css
   + .item
   + #item
   + keyframe
 + JavaScript
    + onclick active
-# html header
+   + function
+   + using function
+# HTML     
+## html header
 html header structure:
 + DOCTYPE HTML tag
 + html lang
@@ -24,13 +29,16 @@ html header structure:
   + meta set
   + title tag
   + **more:** style tag(css preload)
-# html body（main content）str:
+## html body（main content）str:
 + body tag
     + web main content
-# add JavaScript 
-\+ \script tag(<script>)
+## html footer
+footer include Copyright and Other information.
+\<footer>footer information</footer>
+## add JavaScript Codes
+\ script tag(<script>)
   + js script content
-\+ \</script>
+\ </script>
 *warning🟥*:
 script content and tag cannot be writen inside body tag!
 # div
@@ -48,7 +56,7 @@ Writing method:
 Like its name suggests, it has three values: left, center, and right.
 1. text-align: The horizontal alignment mode for text content.
 2. box-align : The alignment mode for elements inside a box(or flex) container.
-# JS
+# JS(Java Script)
 ## onlick active 
 str(The first kind):
 
@@ -57,7 +65,7 @@ str(The second type:funtction):
 
 
 
-\n
+.
 
 item.onclick=function(function-name){
     Things.things
@@ -65,6 +73,17 @@ item.onclick=function(function-name){
 ## write("hello world")
 using document.write:
 -  document.write("hello world")
+## function
+In JS,def function like this:
+```JS
+function(function-name){
+    content
+}
+```
+## using function
+In JS,using function like this:
+function-name()
+HTML too.
 # Using
 == you just delete those note ==
 + html note:<!- -xxx-->
