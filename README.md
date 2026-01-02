@@ -20,6 +20,9 @@
    + onclick active
    + function
    + using function
+   + if
+   + if-else
+   + rep-fori
 # HTML
 ## tags str
 ```HTML
@@ -104,7 +107,37 @@ In JS,using function like this:
 function-name()
 ```
 HTML too.
-# Using
-== you just delete those note ==
-+ html note:<!- -xxx-->
-+ css note:/* xxx */
+## using if
+```
+if(condition){
+   execute
+}
+```
+## using if-else
+```
+if(condition){
+   execute
+}
+else{
+   execute
+}
+```
+## fori rep
+### for i =
+```
+for(var i;i = frequency;i++){
+    execute
+}
+```
+### for i <
+```
+for(var i;i ＜ frequency;i++){
+    execute
+}
+```
+### for i ＞
+```
+for(var i;i ＞ frequency;i++){
+    execute
+}
+```
