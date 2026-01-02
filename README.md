@@ -1,7 +1,7 @@
 # Hitys-webframe
 **This is a frame work for Beginner developer😋**
 
-*😻This frame **Including content(some on README.md)***:
+*😻This frame **Including content(It is codes(has note too),You can look README.md learning more information)***:
 + **html**
   + tags str
   + html header
@@ -11,7 +11,7 @@
   + html add js
   + html div
     + id and class
-  + button tags
+  + button
 + **css**
   + .item
   + #item
@@ -22,7 +22,7 @@
    + using function
 # HTML
 ## tags str
-```
+```HTML
 <tagsname>content</tagsname>
 ```
 ## html header
@@ -59,6 +59,9 @@ Writing method:
      + div id="xxx"
         + or
      + div class="xxx"
+## button 
+You can using **button tag** to create a button,And use the `
+id` and `name` parameter.You can on `script tag` add interactive.
 # CSS
 ## .items and #items
 .item selects a div (or any element) with the class item, whereas #item selects the element with the id item.
