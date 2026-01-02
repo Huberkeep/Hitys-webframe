@@ -1,8 +1,8 @@
 # Hitys-webframe
 **This is a frame work😋**
 *😻Including content*:
-- tags str
 + html
+  + tags str
   + html header
     + CSS's style label
   + html body
@@ -19,7 +19,11 @@
    + onclick active
    + function
    + using function
-# HTML     
+# HTML
+## tags str
+```
+<tagsname>content</tagsname>
+```
 ## html header
 html header structure:
 + DOCTYPE HTML tag
@@ -34,15 +38,20 @@ html header structure:
     + web main content
 ## html footer
 footer include Copyright and Other information.
-\<footer>footer information</footer>
+```
+<footer>footer information</footer>
+```
 ## add JavaScript Codes
-\ script tag(<script>)
-  + js script content
-\ </script>
+```
+<script>
+   js script content
+</script>
+```
 *warning🟥*:
 script content and tag cannot be writen inside body tag!
-# div
-div has two value:**id and class**
+## div
+div like a box.
+div use often two value:**id and class**
 + id:feedonly identity
 + class:collective class
 Writing method:
@@ -51,7 +60,7 @@ Writing method:
      + div class="xxx"
 # CSS
 ## .items and #items
-.item selects a div (or any element) with the class = "item", whereas #item selects the element with the id = "item".
+.item selects a div (or any element) with the class item, whereas #item selects the element with the id item.
 ## text-align and box-align
 Like its name suggests, it has three values: left, center, and right.
 1. text-align: The horizontal alignment mode for text content.
@@ -60,19 +69,24 @@ Like its name suggests, it has three values: left, center, and right.
 ## onlick active 
 str(The first kind):
 
+```
 item.onclick(things)
+```
 str(The second type:funtction):
 
 
 
 .
-
+```
 item.onclick=function(function-name){
     Things.things
 }
+```
 ## write("hello world")
 using document.write:
--  document.write("hello world")
+```
+document.write("hello world")
+```
 ## function
 In JS,def function like this:
 ```JS
@@ -82,7 +96,9 @@ function(function-name){
 ```
 ## using function
 In JS,using function like this:
+```
 function-name()
+```
 HTML too.
 # Using
 == you just delete those note ==
