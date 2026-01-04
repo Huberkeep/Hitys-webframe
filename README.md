@@ -156,7 +156,7 @@ document.location.reload //reload page
 ```
 #### document.location.origin
 ```JS
-console.log(loc.origin);      // get origin url
+console.log(document.location.origin);      // get origin url
 ```
 #### document.location.href
 like <a> tag.
