@@ -3,7 +3,9 @@
 
 *😻This frame **Including content(It is codes(has note too),You can look README.md learning more information)***:
 + **html**
-  + tags str
+  + tags
+     + tags str
+     + tags value
   + html header
     + **CSS's style** label
   + html body
@@ -23,11 +25,16 @@
    + if
    + if-else
    + rep-fori
+   + document
+     + document.lacation.href
 # HTML
-## tags str
+## tags
+### tags str
 ```HTML
 <tagsname>content</tagsname>
 ```
+### tags value
+id,class,style,src,href,viewport, description, keywords, author, robots, charset,lang,data,hidden
 ## html header
 html header structure:
 + DOCTYPE HTML tag
@@ -140,4 +147,19 @@ for(var i;i ＜ frequency;i++){
 for(var i;i ＞ frequency;i++){
     execute
 }
+```
+## document 
+### document.location
+#### document.location.reload
+```JS
+document.location.reload //reload page
+```
+#### document.location.origin
+```JS
+console.log(loc.origin);      // get origin url
+```
+#### document.location.href
+like <a> tag.
+```JS
+document.location.href = "url"
 ```
